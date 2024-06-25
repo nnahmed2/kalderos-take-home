@@ -5,7 +5,7 @@ To run the web app, make sure to have the following installed if you don't alrea
 - Node (v18 or higher) - [Download Node.js](https://nodejs.org/en/download/package-manager)
 - npm (v8 or higher) - [Installing npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-### `npm start`
+#### `npm start`
 
 To run the app use the above command. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
