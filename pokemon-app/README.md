@@ -9,6 +9,8 @@ To run the web app, make sure to have the following installed if you don't alrea
 
 To run the app use the above command. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+You may need to run `npm install` to install all the dependencies.
+
 You may need to update the port number in setupProxy.js to the port the API is running on if it is different from 5282.
 
 ## More about the design
