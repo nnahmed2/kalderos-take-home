@@ -11,5 +11,5 @@ To run the app use the above command. Open [http://localhost:3000](http://localh
 
 ## More about the tech stack
 
-- Redux: I learned to use Redux for this project as a centralized store for managing the comprehensive list of all Pokémon.
+- Redux: I remember Nate mentioning Kalderos uses Redux so I thought it would be fun to learn to use for a centralized store in this project! I used it to store the comprehensive list of all pokemon.
 - Material UI: I utilized Material UI for all the UI components. [Getting started with Material UI](https://mui.com/material-ui/getting-started/)
