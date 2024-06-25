@@ -15,5 +15,5 @@ You may need to update the port number in setupProxy.js to the port the API is r
 
 ## More about the design
 
-- Redux: Nate mentioned Kalderos uses Redux so I thought it would be fun to learn to use for a centralized store in this project! I used it to store the comprehensive list of all pokemon and the summary data.
+- Redux: Nate mentioned Kalderos uses Redux so I thought it would be fun to learn to use for a centralized store in this project! I used it to store the comprehensive list of all pokemon and the summary data instead of passing this data through props to components.
 - Material UI: I utilized Material UI for all the UI components. [Getting started with Material UI](https://mui.com/material-ui/getting-started/)
