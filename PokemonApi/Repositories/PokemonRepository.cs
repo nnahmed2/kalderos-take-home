@@ -17,7 +17,11 @@ namespace PokemonApi.Repositories
                 using (var reader = new StreamReader(stream))
                 {
                     string jsonData = await reader.ReadToEndAsync();
-                    _pokemons = JsonConvert.DeserializeObject<List<Pokemon>>(jsonData);
+                    if (jsonData != null)
+                    {
+                        _pokemons = JsonConvert.DeserializeObject<List<Pokemon>>(jsonData);
+                    }
+
                 }
             }
             catch (Exception ex)

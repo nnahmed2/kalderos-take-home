@@ -11,4 +11,4 @@ To run the app you can use the above command.
 
 ## More about design
 
-I designed this for the static JSON file, so it is fairly straightforward and pulls all the data at once. If the data was located in a database, then I would configure the API endpoints to pull out only essential data per request at a time to limit bandwidth usage.
+I designed this for the static JSON file with no missing data/poorly filled entries, so it is fairly straightforward and pulls all the data at once. If the data was located in a database, then I would configure the API endpoints to pull out only essential data per request at a time to limit bandwidth usage. I would also do data validation checks to ensure incoming data meets the type and possible value ranges.

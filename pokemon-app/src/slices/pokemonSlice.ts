@@ -71,6 +71,7 @@ export const pokemonSlice = createSlice({
           },
           []
         );
+
         // Loading the list of generations for centralized use.
         state.generations = action.payload.reduce(
           (acc: string[], pokemon: Pokemon) => {
