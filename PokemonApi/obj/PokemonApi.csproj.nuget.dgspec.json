@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/beeahmed/Desktop/Kalderos/PokemonApi/PokemonApi.csproj": {}
+    "/Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/PokemonApi.csproj": {}
   },
   "projects": {
-    "/Users/beeahmed/Desktop/Kalderos/PokemonApi/PokemonApi.csproj": {
+    "/Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/PokemonApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/beeahmed/Desktop/Kalderos/PokemonApi/PokemonApi.csproj",
+        "projectUniqueName": "/Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/PokemonApi.csproj",
         "projectName": "PokemonApi",
-        "projectPath": "/Users/beeahmed/Desktop/Kalderos/PokemonApi/PokemonApi.csproj",
+        "projectPath": "/Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/PokemonApi.csproj",
         "packagesPath": "/Users/beeahmed/.nuget/packages/",
-        "outputPath": "/Users/beeahmed/Desktop/Kalderos/PokemonApi/obj/",
+        "outputPath": "/Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/beeahmed/.nuget/NuGet/NuGet.Config"

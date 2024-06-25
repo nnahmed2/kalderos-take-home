@@ -5,9 +5,9 @@ This API provides endpoints to retrieve information about the Pokémon. It was d
 To run the API, make sure to have the following installed if you don't already have it:
 .NET SDK (v8) - https://dotnet.microsoft.com/en-us/download
 
-### `dotnet run`
+#### `dotnet run`
 
-To run the app you can use the above commands.
+To run the app you can use the above command.
 
 ## More about design
 
