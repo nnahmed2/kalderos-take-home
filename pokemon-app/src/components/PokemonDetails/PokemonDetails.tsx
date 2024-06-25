@@ -14,13 +14,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchPokemons, selectPokemonByName } from "../../slices/pokemonSlice";
 import { Stat } from "../../models/Pokemon";
 
+// Pokemon Details page with details of a specific Pokemon.
 const PokemonDetails: React.FC = () => {
   const { name } = useParams<{ name: string }>();
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
   const dispatch: AppDispatch = useDispatch();
 
-  // This will lookup the pokemon from the pokemonByName object/hashmap in store.
+  // This will lookup the pokemon from the pokemonByName object/hashmap in store using the name provided in the routing.
   // This is more efficient than iterating through the whole Pokemon array.
   const pokemon = useSelector((state: RootState) =>
     selectPokemonByName(state, name || "")

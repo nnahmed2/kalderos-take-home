@@ -11,7 +11,7 @@ To run the app use the above command. Open [http://localhost:3000](http://localh
 
 You may need to update the port number in setupProxy.js to the port the API is running on if it is different from 5282.
 
-## More about the tech stack
+## More about the design
 
-- Redux: I remember Nate mentioning Kalderos uses Redux so I thought it would be fun to learn to use for a centralized store in this project! I used it to store the comprehensive list of all pokemon.
+- Redux: Nate mentioned Kalderos uses Redux so I thought it would be fun to learn to use for a centralized store in this project! I used it to store the comprehensive list of all pokemon and the summary data.
 - Material UI: I utilized Material UI for all the UI components. [Getting started with Material UI](https://mui.com/material-ui/getting-started/)

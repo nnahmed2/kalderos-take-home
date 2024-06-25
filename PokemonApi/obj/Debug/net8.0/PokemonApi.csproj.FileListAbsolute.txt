@@ -72,7 +72,6 @@
 /Users/beeahmed/Desktop/Kalderos/PokemonApi/bin/Debug/net8.0/Data/pokemon.json
 /Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/bin/Debug/net8.0/appsettings.Development.json
 /Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/bin/Debug/net8.0/appsettings.json
-/Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/bin/Debug/net8.0/Data/pokemon.json
 /Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/bin/Debug/net8.0/PokemonApi
 /Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/bin/Debug/net8.0/PokemonApi.deps.json
 /Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/bin/Debug/net8.0/PokemonApi.runtimeconfig.json
@@ -106,3 +105,4 @@
 /Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/obj/Debug/net8.0/PokemonApi.pdb
 /Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/obj/Debug/net8.0/PokemonApi.genruntimeconfig.cache
 /Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/obj/Debug/net8.0/ref/PokemonApi.dll
+/Users/beeahmed/Desktop/kalderos-take-home/PokemonApi/bin/Debug/net8.0/Data/pokemon.json

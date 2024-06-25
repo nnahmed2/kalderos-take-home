@@ -55,8 +55,11 @@ export const pokemonSlice = createSlice({
           return acc;
         }, {} as { [key: string]: Pokemon });
 
-        // The logic below could potentially be placed on the backend and the API itself can return the list of types/generations.
-        // Loading the list of types for centralized use.
+        /*
+          The logic below creating the list of types and generations used to be in a useEffect in PokemonTable, 
+          but putting it in store will make it more centralized. 
+          This logic could also potentially be placed on the backend and the API itself can return the list of types/generations.
+        */
         state.types = action.payload.reduce(
           (acc: string[], pokemon: Pokemon) => {
             const type1 = pokemon.types[0];
@@ -72,7 +75,6 @@ export const pokemonSlice = createSlice({
           []
         );
 
-        // Loading the list of generations for centralized use.
         state.generations = action.payload.reduce(
           (acc: string[], pokemon: Pokemon) => {
             const gen = pokemon.generation;
@@ -84,7 +86,6 @@ export const pokemonSlice = createSlice({
           []
         );
       })
-      // In the event that the data cannot be fetched.
       .addCase(fetchPokemons.rejected, (state, action) => {
         state.loading = false;
         state.error = action.error.message || "Failed to fetch Pokémon";

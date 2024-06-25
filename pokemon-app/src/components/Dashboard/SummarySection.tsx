@@ -12,6 +12,7 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
+// Summary component with overall statistics for Dashboard
 const SummarySection: React.FC = () => {
   // Retrieving summary data from store
   const summary = useSelector((state: RootState) => state.summary.data);

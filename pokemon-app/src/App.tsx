@@ -13,7 +13,7 @@ import theme from "./theme";
 const App: React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
 
-  // Fetching the Pokemon/Summary data so that it can be used universally by the components
+  // Fetching the Pokemon/Summary data so that it can be used universally by the components.
   useEffect(() => {
     dispatch(fetchPokemons());
     dispatch(fetchSummary());

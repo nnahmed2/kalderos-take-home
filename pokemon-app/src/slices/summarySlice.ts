@@ -1,4 +1,3 @@
-// src/summarySlice.ts
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { getSummary } from '../services/api';
 import { Summary } from '../models/Summary';

@@ -16,6 +16,7 @@ import {
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 import "@fontsource/fira-code";
 
+// Table component displaying all available Pokemon
 const PokemonTable: React.FC = () => {
   // Retrieving pokemon, type, generation lists from store
   const { data: pokemons } = useSelector((state: RootState) => state.pokemon);
@@ -88,6 +89,7 @@ const PokemonTable: React.FC = () => {
     navigate(`/pokemon/${name}`, { state: { name } });
   };
 
+  // Column definitions for the data grid
   const columns: GridColDef[] = [
     { field: "number", headerName: "Number", flex: 1, sortable: true },
     { field: "name", headerName: "Name", flex: 1, sortable: true },
